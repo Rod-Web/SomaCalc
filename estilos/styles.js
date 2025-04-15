@@ -9,18 +9,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
 
-    Image:{
-        width: 200,
-        height: 180,
-        marginBottom: 20,
-    },
-
-    titulo:{
-        color: 'white',
-        fontSize: '20px',
-        fontFamily: 'Arial Narrow Bold',
-        fontWeight:  '200'
-    },
     ViewCabecalho: {
         backgroundColor: 'yellow',
         flex: 0.4,
@@ -33,10 +21,22 @@ const styles = StyleSheet.create({
         alignItems:"center",
         justifyContent: "center",
         width: '100%',
-        marginTop:-200
+        marginTop:-160
     },
 
+    titulo:{
+        color: 'white',
+        fontSize: '20px',
+        fontFamily: 'Arial Narrow Bold',
+        fontWeight:  '200',
+    },
 
+    Image:{
+        width: 200,
+        height: 180,
+        marginBottom: 20,
+    },
+    
     entradasDados: {
         width: '80%',
         height:40,
